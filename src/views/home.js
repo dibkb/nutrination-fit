@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import Script from 'dangerous-html/react'
-import { Helmet } from 'react-helmet'
+import Script from "dangerous-html/react";
+import { Helmet } from "react-helmet";
 
-import './home.css'
+import "./home.css";
 
 const Home = (props) => {
   return (
@@ -25,7 +25,7 @@ const Home = (props) => {
           <div id="mobile-menu" className="home-mobile-navigation">
             <img
               alt="pastedImage"
-              src="/pastedimage-no9b-1500h.png"
+              src="/nnlogo-200h.png"
               className="home-logo"
             />
             <div className="home-links">
@@ -102,7 +102,13 @@ closeButton.addEventListener("click", function() {
             to stay Fit and Healthy :)
           </p>
           <div className="home-get-started1">
-            <span className="home-text06">Join The Fitness Revolution</span>
+            <a
+              target="_blank"
+              className="home-text06"
+              href="https://nutrinationweb.vercel.app/"
+            >
+              Join The Fitness Revolution
+            </a>
           </div>
         </header>
       </section>
@@ -204,7 +210,7 @@ closeButton.addEventListener("click", function() {
                 success.
               </span>
               <span className="home-text24">
-                {' '}
+                {" "}
                 Dive into a new era of health management with NutriNation.
                 It&apos;s not just about eating; it&apos;s about strategic
                 planning for your well-being. Our platform emphasizes the power
@@ -312,7 +318,7 @@ closeButton.addEventListener("click", function() {
               </h2>
               <div className="home-category2">
                 <span className="home-text39">
-                  {' '}
+                  {" "}
                   Your health is a priority, and NutriNation is your partner in
                   prevention. Beyond diet and fitness tracking, we provide
                   insights to safeguard against cardiovascular diseases and
@@ -346,14 +352,14 @@ closeButton.addEventListener("click", function() {
                 <span className="home-text46">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </span>
                 <span className="home-text47">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </span>
@@ -383,7 +389,7 @@ closeButton.addEventListener("click", function() {
                 How can we use NutriNation at this stage of development?
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: ' ',
+                    __html: " ",
                   }}
                 />
               </span>
@@ -401,7 +407,7 @@ closeButton.addEventListener("click", function() {
                 fitness space.
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: ' ',
+                    __html: " ",
                   }}
                 />
               </span>
@@ -427,7 +433,7 @@ closeButton.addEventListener("click", function() {
                 fitness experience!
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: ' ',
+                    __html: " ",
                   }}
                 />
               </span>
@@ -552,7 +558,7 @@ Here's what the above is doing:
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
