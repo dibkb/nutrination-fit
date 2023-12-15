@@ -4,7 +4,7 @@ import Script from "dangerous-html/react";
 import { Helmet } from "react-helmet";
 
 import "./home.css";
-
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 const Home = (props) => {
   return (
     <div className="home-container">
@@ -47,9 +47,31 @@ const Home = (props) => {
                   src="/nnlogo-200h.png"
                   className="home-logo1"
                 />
-                <div className="home-links1"></div>
+                <a className="Link">Blogs</a>
               </div>
+
               <div className="home-right">
+                <div className="home-links1">
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: "20px",
+                    }}
+                  >
+                    <a className="link">
+                      <FaFacebookF />
+                    </a>
+                    <a className="link">
+                      <FaTwitter />
+                    </a>
+                    <a className="link">
+                      <FaInstagram />
+                    </a>
+                    <a className="link">
+                      <FaYoutube />
+                    </a>
+                  </div>
+                </div>
                 <div className="home-get-started">
                   <span className="home-text03">Sign in</span>
                 </div>
