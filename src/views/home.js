@@ -4,7 +4,14 @@ import Script from "dangerous-html/react";
 import { Helmet } from "react-helmet";
 
 import "./home.css";
-import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaYoutube,
+  FaRedditAlien,
+  FaQuora,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 const Home = (props) => {
   return (
     <div className="home-container">
@@ -55,6 +62,8 @@ const Home = (props) => {
                   <div
                     style={{
                       display: "flex",
+                      justifyItems: "center",
+                      alignItems: "center",
                       gap: "20px",
                     }}
                   >
@@ -62,13 +71,19 @@ const Home = (props) => {
                       <FaFacebookF />
                     </a>
                     <a className="link">
-                      <FaTwitter />
+                      <FaXTwitter />
                     </a>
                     <a className="link">
                       <FaInstagram />
                     </a>
                     <a className="link">
                       <FaYoutube />
+                    </a>
+                    <a className="link">
+                      <FaRedditAlien />
+                    </a>
+                    <a className="link">
+                      <FaQuora />
                     </a>
                   </div>
                 </div>
