@@ -212,11 +212,15 @@ closeButton.addEventListener("click", function() {
       <section className="home-quote-container">
         <div className="home-quote">
           <span className="home-message">
-            &quot;You become healthy and fit by choosing nutritious foods, not
-            just by exercising. Good eating is where it all begins.NutriNation
-            bring Diet and Activity Management under one unified ecosystem for
-            accurate data tracking, powerful insights and effective
-            results!&quot;
+            <span className="home-message-bold">
+              &quot;You become healthy and fit by choosing nutritious foods, not
+              just by exercising.{" "}
+            </span>
+            Good eating is where it all begins.
+            <br />
+            NutriNation bring Diet and Activity Management under one unified
+            ecosystem for accurate data tracking, powerful insights and
+            effective results!&quot;
           </span>
           <div className="home-author">
             <img alt="image" src="/harsh-200h.jpg" className="home-avatar" />
