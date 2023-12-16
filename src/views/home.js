@@ -256,8 +256,6 @@ closeButton.addEventListener("click", function() {
                 It&apos;s not just about eating; it&apos;s about strategic
                 planning for your well-being. Our platform emphasizes the power
                 of meticulous planning, guiding you towards your fitness goals.
-                Experience success by focusing on the holistic journey, where
-                every meal and workout is a step closer to a healthier you.
               </span>
             </div>
             <div className="home-image-container">
@@ -296,16 +294,14 @@ closeButton.addEventListener("click", function() {
                 <span className="home-text28">Example -&gt;</span>
               </div>
               <div className="home-category1">
-                <span className="home-text29">Elevate Your Workout Game:</span>
+                <span className="home-text26">Elevate Your Workout Game:</span>
                 <span className="home-text30">
                   Your workout is not just a routine; it&apos;s a dynamic
                   expression of your commitment to a healthier lifestyle.
                   NutriNation elevates your workout experience by integrating it
                   seamlessly with your diet plan. The synergy of a well-planned
                   diet and purposeful activities propels you towards sustained
-                  fitness. This isn&apos;t just fitness; it&apos;s a lifestyle
-                  crafted for enduring health. Embrace the power of a balanced
-                  approach, and witness the transformation.
+                  fitness.
                 </span>
                 <span className="home-text31">
                   <span className="home-text28">Example -&gt;</span>

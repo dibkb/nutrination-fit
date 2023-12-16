@@ -501,7 +501,7 @@
   flex-direction: column;
 }
 .home-text26 {
-  color: rgb(0, 0, 0);
+  color: var(--dl-color-primary-100);
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -1356,9 +1356,6 @@
     text-align: left;
     line-height: 26px;
     margin-bottom: var(--dl-space-space-twounits);
-  }
-  .home-text26 {
-    font-size: 20px;
   }
   .home-text27 {
     line-height: 24px;
