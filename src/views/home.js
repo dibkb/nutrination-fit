@@ -247,8 +247,8 @@ closeButton.addEventListener("click", function() {
           <div className="home-container05">
             <div className="home-left1">
               <span className="home-text23 title">
-                Focus on Planning instead of logging! It&apos;s the Key to
-                success.
+                Focus on Planning instead of logging!
+                <br /> It&apos;s the Key to success.
               </span>
               <span className="home-text24">
                 {" "}
@@ -308,7 +308,7 @@ closeButton.addEventListener("click", function() {
                   approach, and witness the transformation.
                 </span>
                 <span className="home-text31">
-                  <span className="home-text32">Example -&gt;</span>
+                  <span className="home-text28">Example -&gt;</span>
                   <br></br>
                   <br></br>
                   <br></br>
