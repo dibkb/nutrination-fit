@@ -145,7 +145,7 @@
   background-color: #000000;
 }
 .home-get-started:hover {
-  background-color: #5228f5;
+  background-color: var(--dl-color-primary-300);
 }
 .home-text03 {
   color: rgb(255, 255, 255);
@@ -241,7 +241,7 @@
   flex-direction: row;
 }
 .home-schedule {
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  /* box-shadow: 5px 5px 10px 0px #d4d4d4; */
 }
 .home-icon02 {
   width: 32px;
@@ -260,7 +260,7 @@
 }
 .home-publish {
   height: initial;
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  /* box-shadow: 5px 5px 10px 0px #d4d4d4; */
 }
 .home-icon03 {
   width: 30px;
@@ -286,7 +286,7 @@
   flex-direction: row;
 }
 .home-analyze {
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  /* box-shadow: 5px 5px 10px 0px #d4d4d4; */
 }
 .home-icon04 {
   width: 35px;
@@ -304,7 +304,7 @@
   line-height: 24px;
 }
 .home-get-leads {
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  /* box-shadow: 5px 5px 10px 0px #d4d4d4; */
 }
 .home-icon05 {
   width: 30px;
