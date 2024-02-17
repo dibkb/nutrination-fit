@@ -2,6 +2,7 @@ import React from "react";
 
 import Script from "dangerous-html/react";
 import { Helmet } from "react-helmet";
+import { Link } from 'react-router-dom';
 
 import "./home.css";
 import {
@@ -54,7 +55,10 @@ const Home = (props) => {
                   src="/nnlogo-200h.png"
                   className="home-logo1"
                 />
-                <a className="Link">Blogs</a>
+                {/* <a className="Link">Blogs</a> */}
+                <Link className="Link" to="/blogs">Blogs</Link>
+
+
               </div>
 
               <div className="home-right">
@@ -67,22 +71,22 @@ const Home = (props) => {
                       gap: "20px",
                     }}
                   >
-                    <a className="link">
+                    <a className="link" href="https://www.facebook.com/profile.php?id=100093331971902" target="_blank">
                       <FaFacebookF />
                     </a>
-                    <a className="link">
+                    <a className="link" href="https://twitter.com/NutrinationApp" target="_blank">
                       <FaXTwitter />
                     </a>
-                    <a className="link">
+                    <a className="link" href="https://www.instagram.com/nutrinationapp/" target="_blank">
                       <FaInstagram />
                     </a>
-                    <a className="link">
+                    <a className="link" href="https://www.youtube.com/channel/UCNm_Z5bN6Wh8e8LNahFVDww" target="_blank">
                       <FaYoutube />
                     </a>
-                    <a className="link">
+                    <a className="link" href="https://www.reddit.com/user/NutriNationApp" target="_blank">
                       <FaRedditAlien />
                     </a>
-                    <a className="link">
+                    <a className="link" href="https://www.quora.com/profile/NutriNation" target="_blank">
                       <FaQuora />
                     </a>
                   </div>
@@ -576,11 +580,13 @@ Here's what the above is doing:
             <div className="home-category5">
               <span className="home-text62">Social Media Handles</span>
               <div className="home-links3">
-                <span className="home-text63">Twitter</span>
-                <span className="home-text64">Linkedin</span>
-                <span className="home-text65">Crunchbase</span>
-                <span className="home-text66">Instagram</span>
-                <span className="home-text67">Facebook</span>
+                <span className="home-text66"><a href="https://www.instagram.com/nutrinationapp/" target="_blank">Instagram</a> </span>
+                <span className="home-text67"><a href="https://www.reddit.com/user/NutriNationApp" target="_blank">Reddit</a> </span>
+                <span className="home-text63"><a href="https://twitter.com/NutrinationApp" target="_blank"> Twitter</a> </span>
+                <span className="home-text64"><a href="https://www.quora.com/profile/NutriNation" target="_blank"> Quora</a></span>
+                <span className="home-text65"><a href="#"> Crunchbase</a></span>
+                <span className="home-text65"><a href="https://www.youtube.com/channel/UCNm_Z5bN6Wh8e8LNahFVDww" target="_blank"> Youtube</a></span>
+                <span className="home-text67"><a href="https://www.facebook.com/profile.php?id=100093331971902" target="_blank">Facebook</a> </span>
               </div>
             </div>
           </div>
