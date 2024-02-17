@@ -71,22 +71,22 @@ const Home = (props) => {
                       gap: "20px",
                     }}
                   >
-                    <a className="link">
+                    <a className="link" href="https://www.facebook.com/profile.php?id=100093331971902" target="_blank">
                       <FaFacebookF />
                     </a>
-                    <a className="link">
+                    <a className="link" href="https://twitter.com/NutrinationApp" target="_blank">
                       <FaXTwitter />
                     </a>
-                    <a className="link">
+                    <a className="link" href="https://www.instagram.com/nutrinationapp/" target="_blank">
                       <FaInstagram />
                     </a>
-                    <a className="link">
+                    <a className="link" href="https://www.youtube.com/channel/UCNm_Z5bN6Wh8e8LNahFVDww" target="_blank">
                       <FaYoutube />
                     </a>
-                    <a className="link">
+                    <a className="link" href="https://www.reddit.com/user/NutriNationApp" target="_blank">
                       <FaRedditAlien />
                     </a>
-                    <a className="link">
+                    <a className="link" href="https://www.quora.com/profile/NutriNation" target="_blank">
                       <FaQuora />
                     </a>
                   </div>
