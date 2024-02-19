@@ -406,7 +406,9 @@ closeButton.addEventListener("click", function() {
                 </span>
               </span>
               <div className="home-get-started2 template-button">
-                <span className="home-text48">Read Full Article</span>
+                {/* <span className="home-text48">Read Full Article</span> */}
+                <span className="home-text48"><Link to="/blogpost">Read Full Article</Link></span>
+
               </div>
             </div>
             <div className="home-container07">
