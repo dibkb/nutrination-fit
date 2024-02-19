@@ -103,3 +103,21 @@
     align-items: center;
 }
     
+@media only screen and (max-width: 600px) {
+    .bmain-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        padding: 7px;
+    }
+    .adBox{
+        width: 100%;
+    }
+    .box p{
+        font-size: 15px;
+    }
+    .image img{
+        height: 30vh;
+    }
+  }
