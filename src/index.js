@@ -11,6 +11,7 @@ import './style.css'
 import Home from './views/home'
 import NotFound from './views/not-found'
 import Blogs from './components/Blogs'
+import BlogHiddenCost from './components/BlogPost/blogHiddenCost'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Switch>
         <Route component={Home} exact path="/" />
         <Route component={Blogs} exact path="/blogs" />
+        <Route component={BlogHiddenCost} exact path="/blogpost"/>
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
